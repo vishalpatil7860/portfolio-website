@@ -12,6 +12,7 @@ import qas from "../public/qas.png";
 import had from "../public/had.png";
 import ccfd from "../public/ccfd.png";
 import hdc from "../public/hdc.jpg";
+import mri from "../public/mri.png";
 
 
 export const links = [
@@ -78,20 +79,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Brain Tumor Segmentation using U-Net based Deep Learning Model",
+    description:
+      "Developed a U-Net-based deep learning model for Brain Tumor Segmentation from MRI scans, achieving a mean F1 score of 0.72958 across test images. This project contributes to medical image analysis and assists in accurate diagnosis and treatment planning for brain tumor patients.",
+    tags: ["Python", "Keras", "Neural Network", "Deep Learning", "U-Net", "CNN", "Image Segmentation"],
+    link: "https://github.com/vishalpatil7860/Retail-Data-Driven-Product-Recommendation-Engine",
+    imageUrl: mri,
+  },
+  {
     title: "Retail Data-Driven Product Recommendation Engine",
     description:
       "Led the creation of a high-accuracy (98.34%) content-based recommendation system for e-commerce, leveraging Python, TensorFlow, and Keras, with advanced data preprocessing and serialization via scikit-learn and joblib, culminating in a robust Flask web application with an intuitive UI for superior product recommendation.",
     tags: ["Python", "Keras", "Neural Network", "Deep Learning", "Product Recommendation", "Content-based Filtering"],
     link: "https://github.com/vishalpatil7860/Retail-Data-Driven-Product-Recommendation-Engine",
     imageUrl: prs,
-  },
-  {
-    title: "Keyword Extraction & Text Summarization using NLP",
-    description:
-    "Enhanced a text summarization algorithm for heightened precision by refining the dataset, applying term frequency and inverse document frequency metrics, and improving accuracy by selectively including the most relevant sentences, validated by a high ROGUE-1 score.",
-    tags: ["Python", "NLP", "Text Summarization", "Keyword Extraction", "TF-IDF"],
-    link: "https://github.com/vishalpatil7860/keyword-extraction-and-text-summarization-using-NLP",
-    imageUrl: kets,
   },
   {
     title: "ADAS Performance Metrics: A Power BI Dashboard",
@@ -102,6 +103,22 @@ export const projectsData = [
     imageUrl: adas,
   },
   {
+    title: "Keyword Extraction & Text Summarization using NLP",
+    description:
+    "Enhanced a text summarization algorithm for heightened precision by refining the dataset, applying term frequency and inverse document frequency metrics, and improving accuracy by selectively including the most relevant sentences, validated by a high ROGUE-1 score.",
+    tags: ["Python", "NLP", "Text Summarization", "Keyword Extraction", "TF-IDF"],
+    link: "https://github.com/vishalpatil7860/keyword-extraction-and-text-summarization-using-NLP",
+    imageUrl: kets,
+  },
+  {
+    title: "Credit Card Fraud Detection using Big Data",
+    description:
+      "Conducted a comprehensive exploratory analysis on over 300K data points, uncovering pivotal patterns that contributed to a 97% classification accuracy, developed Decision Tree model with 5-fold cross-validation achieving over 95% accuracy, and performed feature engineering with an 80% accuracy in predictive outcomes.",
+    tags: ["Predictive Model", "Python", "Decision Tree", "Classification Model", "Big Data"],
+    link: "https://github.com/vishalpatil7860/Credit-Card-Fraud-Detection-using-Big-Data",
+    imageUrl: ccfd,
+  },
+  {
     title: "OpenAI-Powered Document Search and Question-Answering System",
     description:
       "Engineered an OpenAI-driven search and Q&A system to query PDF documents, integrating pdfminer for text extraction, OpenAIEmbeddings for contextual understanding, and leveraging Chroma vector store with VectorDBQA that delivers precise responses to complex user inquiries",
@@ -109,6 +126,7 @@ export const projectsData = [
     link: "https://github.com/vishalpatil7860/OpenAI-Powered-Document-Search-and-Question-Answering-System",
     imageUrl: qas,
   },
+  
   {
     title: "Heart Disease Classifier Using Machine Learning Model",
     description:
@@ -125,14 +143,7 @@ export const projectsData = [
     link: "https://github.com/vishalpatil7860/HR-Analytics-Dashboard-using-Tableau",
     imageUrl: had,
   },
-  {
-    title: "Credit Card Fraud Detection using Big Data",
-    description:
-      "Conducted a comprehensive exploratory analysis on over 300K data points, uncovering pivotal patterns that contributed to a 97% classification accuracy, developed Decision Tree model with 5-fold cross-validation achieving over 95% accuracy, and performed feature engineering with an 80% accuracy in predictive outcomes.",
-    tags: ["Predictive Model", "Python", "Decision Tree", "Classification Model", "Big Data"],
-    link: "https://github.com/vishalpatil7860/Credit-Card-Fraud-Detection-using-Big-Data",
-    imageUrl: ccfd,
-  },
+  
 ] as const;
 
 export const skillsData = [
