@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "Developed a U-Net-based deep learning model for Brain Tumor Segmentation from MRI scans, achieving a mean F1 score of 0.72958 across test images. This project contributes to medical image analysis and assists in accurate diagnosis and treatment planning for brain tumor patients.",
     tags: ["Python", "Keras", "Neural Network", "Deep Learning", "U-Net", "CNN", "Image Segmentation"],
-    link: "https://github.com/vishalpatil7860/Retail-Data-Driven-Product-Recommendation-Engine",
+    link: "https://github.com/vishalpatil7860/Brain-Tumor-Segmentation-using-U-Net-based-Deep-Learning-Model/",
     imageUrl: mri,
   },
   {
