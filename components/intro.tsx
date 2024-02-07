@@ -30,7 +30,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+{/*             <Image
               src="https://media.licdn.com/dms/image/D4D35AQF1HBYxyEqDnQ/profile-framedphoto-shrink_200_200/0/1696010890603?e=1706644800&v=beta&t=oq6-_Qt3ra6ng-vw4DMRYMBiZ_JI3V_2XZmN4hAbCcs"
               alt="Vishal portrait"
               width="192"
@@ -39,7 +39,7 @@ export default function Intro() {
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
-          </motion.div>
+          </motion.div> */}
 
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
