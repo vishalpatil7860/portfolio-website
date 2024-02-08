@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D35AQF1HBYxyEqDnQ/profile-framedphoto-shrink_200_200/0/1696010890603?e=1706644800&v=beta&t=oq6-_Qt3ra6ng-vw4DMRYMBiZ_JI3V_2XZmN4hAbCcs"
+              src="/dp.jpg"
               alt="Vishal portrait"
               width="192"
               height="192"
