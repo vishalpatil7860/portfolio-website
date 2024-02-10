@@ -37,7 +37,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-204 w-204 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Vishal.</span> I'm a{" "}
-        <span className="font-bold">Data Scientist</span> 
+        <span className="font-bold">Data Enthusiast</span> 
         <span className="font-bold"></span>
       </motion.h1>
 
