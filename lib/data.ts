@@ -13,6 +13,7 @@ import had from "../public/had.png";
 import ccfd from "../public/ccfd.png";
 import hdc from "../public/hdc.jpg";
 import mri from "../public/mri.png";
+import netflix from "../public/Netflix.png";
 
 
 export const links = [
@@ -95,12 +96,12 @@ export const projectsData = [
     imageUrl: prs,
   },
   {
-    title: "ADAS Performance Metrics: A Power BI Dashboard",
+    title: "Netflix Content Analytics Dashboard using Tableau",
     description:
-      "Crafted an extensive Power BI dashboard for Advanced Driver-Assistance Systems (ADAS) analysis, integrating a suite of visualization tools such as gauges, scatter plots, and donut charts, alongside a Paytern chart for anomaly detection to bolster predictive analytics and road safety initiatives.",
-    tags: ["Data Analysis", "Power BI", "Dashboard", "Data Visualization"],
-    link: "https://github.com/vishalpatil7860/ADAS-Performance-Metrics-A-Power-BI-Dashboard",
-    imageUrl: adas,
+      "Leveraging Tableau, I engineered a dynamic dashboard to reveal Netflix's global content strategy and distilled a decade's worth of data to fuel aggressive content acquisition and production tactics. My analysis pinpointed viewer preferences across ratings, directing content diversity efforts and driving data-backed investments in high-performing genres.",
+    tags: ["Data Analysis", "Tableau", "Dashboard", "Data Visualization"],
+    link: "https://github.com/vishalpatil7860/Netflix-Content-Analytics-Dashboard-using-Tableau/tree/main",
+    imageUrl: netflix,
   },
   {
     title: "Keyword Extraction & Text Summarization using NLP",
@@ -111,12 +112,12 @@ export const projectsData = [
     imageUrl: kets,
   },
   {
-    title: "Credit Card Fraud Detection using Big Data",
+    title: "ADAS Performance Metrics: A Power BI Dashboard",
     description:
-      "Conducted a comprehensive exploratory analysis on over 300K data points, uncovering pivotal patterns that contributed to a 97% classification accuracy, developed Decision Tree model with 5-fold cross-validation achieving over 95% accuracy, and performed feature engineering with an 80% accuracy in predictive outcomes.",
-    tags: ["Predictive Model", "Python", "Decision Tree", "Classification Model", "Big Data"],
-    link: "https://github.com/vishalpatil7860/Credit-Card-Fraud-Detection-using-Big-Data",
-    imageUrl: ccfd,
+      "Crafted an extensive Power BI dashboard for Advanced Driver-Assistance Systems (ADAS) analysis, integrating a suite of visualization tools such as gauges, scatter plots, and donut charts, alongside a Paytern chart for anomaly detection to bolster predictive analytics and road safety initiatives.",
+    tags: ["Data Analysis", "Power BI", "Dashboard", "Data Visualization"],
+    link: "https://github.com/vishalpatil7860/ADAS-Performance-Metrics-A-Power-BI-Dashboard",
+    imageUrl: adas,
   },
   {
     title: "OpenAI-Powered Document Search and Question-Answering System",
@@ -126,15 +127,15 @@ export const projectsData = [
     link: "https://github.com/vishalpatil7860/OpenAI-Powered-Document-Search-and-Question-Answering-System",
     imageUrl: qas,
   },
-  
   {
-    title: "Heart Disease Classifier Using Machine Learning Model",
+    title: "Credit Card Fraud Detection using Big Data",
     description:
-      "Implemented and tuned various machine learning classifiers, including Logistic Regression, KNN, and Random Forest, to build a predictive model for heart disease diagnosis with 88.5% accuracy, utilizing key health metrics and GridSearchCV for hyperparameter optimization.",
-    tags: ["Predictive Model", "Python", "Logistic Regression", "KNN", "Random Forest Classifier"],
-    link: "https://github.com/vishalpatil7860/heart-disease-classifier",
-    imageUrl: hdc,
+      "Conducted a comprehensive exploratory analysis on over 300K data points, uncovering pivotal patterns that contributed to a 97% classification accuracy, developed Decision Tree model with 5-fold cross-validation achieving over 95% accuracy, and performed feature engineering with an 80% accuracy in predictive outcomes.",
+    tags: ["Predictive Model", "Python", "Decision Tree", "Classification Model", "Big Data"],
+    link: "https://github.com/vishalpatil7860/Credit-Card-Fraud-Detection-using-Big-Data",
+    imageUrl: ccfd,
   },
+  
   {
     title: "HR Analytics Dashboard",
     description:
@@ -143,6 +144,15 @@ export const projectsData = [
     link: "https://github.com/vishalpatil7860/HR-Analytics-Dashboard-using-Tableau",
     imageUrl: had,
   },
+  {
+    title: "Heart Disease Classifier Using Machine Learning Model",
+    description:
+      "Implemented and tuned various machine learning classifiers, including Logistic Regression, KNN, and Random Forest, to build a predictive model for heart disease diagnosis with 88.5% accuracy, utilizing key health metrics and GridSearchCV for hyperparameter optimization.",
+    tags: ["Predictive Model", "Python", "Logistic Regression", "KNN", "Random Forest Classifier"],
+    link: "https://github.com/vishalpatil7860/heart-disease-classifier",
+    imageUrl: hdc,
+  },
+  
   
 ] as const;
 
