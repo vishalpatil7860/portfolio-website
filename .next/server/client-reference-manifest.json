@@ -40,6 +40,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/about.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/about.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/contact.tsx": {
       "*": {
         "id": "(sc_client)/./components/contact.tsx",
@@ -51,22 +59,6 @@
     "(app-client)/./components/experience.tsx": {
       "*": {
         "id": "(sc_client)/./components/experience.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/about.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/about.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/intro.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/intro.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -96,6 +88,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/intro.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/intro.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
       "*": {
         "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
@@ -120,17 +120,17 @@
         "async": false
       }
     },
-    "(app-client)/./context/theme-context.tsx": {
+    "(app-client)/./context/active-section-context.tsx": {
       "*": {
-        "id": "(sc_client)/./context/theme-context.tsx",
+        "id": "(sc_client)/./context/active-section-context.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./context/active-section-context.tsx": {
+    "(app-client)/./context/theme-context.tsx": {
       "*": {
-        "id": "(sc_client)/./context/active-section-context.tsx",
+        "id": "(sc_client)/./context/theme-context.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -219,6 +219,14 @@
       ],
       "async": false
     },
+    "D:\\Vishal\\Projects\\portfolio-website\\components\\about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "D:\\Vishal\\Projects\\portfolio-website\\components\\contact.tsx": {
       "id": "(app-client)/./components/contact.tsx",
       "name": "*",
@@ -229,22 +237,6 @@
     },
     "D:\\Vishal\\Projects\\portfolio-website\\components\\experience.tsx": {
       "id": "(app-client)/./components/experience.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\Vishal\\Projects\\portfolio-website\\components\\about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\Vishal\\Projects\\portfolio-website\\components\\intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -269,6 +261,14 @@
     },
     "D:\\Vishal\\Projects\\portfolio-website\\components\\skills.tsx": {
       "id": "(app-client)/./components/skills.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Vishal\\Projects\\portfolio-website\\components\\intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -307,16 +307,16 @@
       ],
       "async": false
     },
-    "D:\\Vishal\\Projects\\portfolio-website\\context\\theme-context.tsx": {
-      "id": "(app-client)/./context/theme-context.tsx",
+    "D:\\Vishal\\Projects\\portfolio-website\\context\\active-section-context.tsx": {
+      "id": "(app-client)/./context/active-section-context.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "D:\\Vishal\\Projects\\portfolio-website\\context\\active-section-context.tsx": {
-      "id": "(app-client)/./context/active-section-context.tsx",
+    "D:\\Vishal\\Projects\\portfolio-website\\context\\theme-context.tsx": {
+      "id": "(app-client)/./context/theme-context.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
