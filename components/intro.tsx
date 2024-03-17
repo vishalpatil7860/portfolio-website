@@ -58,13 +58,22 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-5 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Vishal.</span> I'm a{" "}
         <span className="font-bold">Data Enthusiast</span> 
         <span className="font-bold"></span>
+      </motion.h1>
+
+      <motion.h1
+        className="mb-10 mt-2 px-2 text-2xl font-light !leading-[1.5] sm:text-xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-font-medium">Founder & CEO | Data Scientist | Machine Learning Engineer | Data Analyst</span> 
+        
       </motion.h1>
 
       <motion.div

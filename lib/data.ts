@@ -45,6 +45,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Founder",
+    location: "PrismGen AI",
+    description:
+      "PrismGen AI stands as a pioneer in the field of artificial intelligence, offering a versatile one-stop platform for a multitude of generative AI services.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
+  {
     title: "M.Sc. in Data Science",
     location: "University of Michigan-Dearborn",
     description:
