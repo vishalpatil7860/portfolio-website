@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am Vishal Patil, <span className="font-medium">Founder of PrismGen AI</span> and a passionate <span className="font-medium">Data Science</span> Graduate student at the <span className="font-medium">University of Michigan-Dearborn.</span>   My academic and hands-on experience in data analytics, machine learning, and business intelligence is now enriched by my venture into entrepreneurship with a focus on AI-driven content creation. With a strong foundation in <span className="font-medium">Python, R, and SQL</span>, and proficiency in data visualization tools like <span className="font-medium">Power BI</span> and <span className="font-medium">Tableau</span>, I have a proven track record in converting complex datasets into strategic insights.
+        I am Vishal Patil, <span className="font-medium">Founder of PrismGen AI</span> and a passionate <span className="font-medium">Data Science</span> Graduate from the <span className="font-medium">University of Michigan-Dearborn.</span>   My academic and hands-on experience in data analytics, machine learning, and business intelligence is now enriched by my venture into entrepreneurship with a focus on AI-driven content creation. With a strong foundation in <span className="font-medium">Python, R, and SQL</span>, and proficiency in data visualization tools like <span className="font-medium">Power BI</span> and <span className="font-medium">Tableau</span>, I have a proven track record in converting complex datasets into strategic insights.
       </p>
       <p className="mb-3">
         Through impactful internships, projects, and now as the driving force behind PrismGen AI, I have honed my expertise in predictive modeling, algorithm optimization, and deploying scalable AI solutions. At PrismGen AI, we're pioneering the use of generative AI services to transform the way content is created across text, visuals, and code, embodying a seamless synthesis of technology and creativity.
@@ -33,8 +33,7 @@ export default function About() {
         video games, watching movies, and playing table tennis. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">Large Language Models</span>. I'm also
-        learning how to play the keyboard.
+        <span className="font-medium">Large Language Models</span>.
       </p>
     </motion.section>
   );
