@@ -104,6 +104,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/projects.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/projects.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/intro.tsx": {
       "*": {
         "id": "(sc_client)/./components/intro.tsx",
@@ -112,9 +120,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/projects.tsx": {
+    "(app-client)/./components/skills.tsx": {
       "*": {
-        "id": "(sc_client)/./components/projects.tsx",
+        "id": "(sc_client)/./components/skills.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -128,9 +136,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/skills.tsx": {
+    "(app-client)/./components/StatsSection.tsx": {
       "*": {
-        "id": "(sc_client)/./components/skills.tsx",
+        "id": "(sc_client)/./components/StatsSection.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -299,6 +307,14 @@
       ],
       "async": false
     },
+    "D:\\Vishal\\Projects\\portfolio-website\\components\\projects.tsx": {
+      "id": "(app-client)/./components/projects.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "D:\\Vishal\\Projects\\portfolio-website\\components\\intro.tsx": {
       "id": "(app-client)/./components/intro.tsx",
       "name": "*",
@@ -307,8 +323,8 @@
       ],
       "async": false
     },
-    "D:\\Vishal\\Projects\\portfolio-website\\components\\projects.tsx": {
-      "id": "(app-client)/./components/projects.tsx",
+    "D:\\Vishal\\Projects\\portfolio-website\\components\\skills.tsx": {
+      "id": "(app-client)/./components/skills.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -323,8 +339,16 @@
       ],
       "async": false
     },
-    "D:\\Vishal\\Projects\\portfolio-website\\components\\skills.tsx": {
-      "id": "(app-client)/./components/skills.tsx",
+    "D:\\Vishal\\Projects\\portfolio-website\\components\\StatsSection.tsx": {
+      "id": "(app-client)/./components/StatsSection.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Vishal\\Projects\\portfolio-website\\node_modules\\animate.css\\animate.min.css": {
+      "id": "(app-client)/./node_modules/animate.css/animate.min.css",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
