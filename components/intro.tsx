@@ -31,10 +31,10 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/dp.jpg"
+              src="/dp2.jpg"
               alt="Vishal portrait"
-              width="192"
-              height="192"
+              width="292"
+              height="292"
               quality="95"
               priority={true}
               className="h-204 w-204 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
@@ -72,7 +72,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-font-medium">Full Stack AI Developer | Data Scientist | Machine Learning Engineer | Data Analyst</span> 
+        <span className="font-font-medium">Data Scientist | Machine Learning Engineer | Data Analyst</span> 
         
       </motion.h1>
 

@@ -58,7 +58,7 @@ export const experiencesData = [
     description:
       "Relevant Coursework: Pattern Recognition and Neural Network, Artificial Intelligence, Database Systems, Natural Language Processing, Deep Learning",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - Present",
+    date: "2022 - 2024",
   },
   {
     title: "Data Science Intern",
@@ -189,5 +189,7 @@ export const skillsData = [
   "Data Cleaning",
   "Prompt Engineering",
   "Applied Regression Analysis",
+  "CI/CD Pipeline",
+  "A/B Testing"
 ] as const;
 
